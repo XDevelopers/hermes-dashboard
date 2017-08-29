@@ -43,9 +43,6 @@ $().ready(function(){
            $pageheader_img_container.fadeIn('fast');
         });
 
-        if($sidebar_responsive.length != 0){
-            $sidebar_responsive.css('background-image','url("' + new_image + '")');
-        }
     });
 
 });
