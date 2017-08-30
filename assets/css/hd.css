@@ -2727,6 +2727,12 @@ input:focus {
 
 .overviewPage {
   margin-top: 100px; }
+  .overviewPage .fa {
+    width: 60px;
+    font-weight: 300 !important;
+    margin-bottom: 20px !important; }
+  .overviewPage .content p {
+    font-size: 1em; }
 
 .card-simple {
   margin: 50px 0; }
@@ -2735,7 +2741,7 @@ input:focus {
     margin: 0;
     font-weight: 600; }
   .card-simple .header p {
-    font-size: 1.7em; }
+    font-size: 1.5em; }
   .card-simple .content {
     color: #9A9A9A;
     padding-top: 0;
