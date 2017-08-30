@@ -427,7 +427,7 @@ body > .navbar-collapse {
   height: 100%; }
 
 .ps-scrollbar-y-rail {
-  z-index: 1001; }
+  z-index: 998; }
   .ps-scrollbar-y-rail .ps-scrollbar-y {
     height: 100px; }
 
@@ -443,7 +443,7 @@ body > .navbar-collapse {
   right: 0;
   width: 64px;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 1031;
+  z-index: 999;
   border-radius: 8px 0 0 8px;
   text-align: center; }
 
@@ -563,7 +563,7 @@ body > .navbar-collapse {
   float: left; }
 
 .fixed-plugin li.adjustments-line {
-  border-bottom: 2px solid rgba(128, 128, 128, 0.35);
+  border-bottom: 2px solid rgba(202, 202, 202, 0.35);
   width: 100%;
   margin-top: 10px; }
 
