@@ -45,7 +45,56 @@ $().ready(function(){
 
     });
 
+       $('.switch input').change(function(){
+        $input = $(this);
+
+        if($input.is(':checked')){
+            $pageheader_img_container.fadeIn('fast');
+            $pageheader.attr('data-image','#')
+            background_image = true;
+        } else {
+            $pageheader.removeAttr('data-image');
+            $pageheader_img_container.fadeOut('fast');
+            background_image = false;
+        }
+    });
+
+       $('#twitter').sharrre({
+      share: {
+        twitter: true
+      },
+      enableHover: false,
+      enableTracking: false,
+      buttons: { twitter: {}},
+      click: function(api, options){
+        api.simulateClick();
+        api.openPopup('twitter');
+      },
+      template: '<i class="fa fa-twitter"></i> &middot; 256',
+      url: 'http://demos.creative-tim.com/light-bootstrap-dashboard'
+    });
+
+    $('#facebook').sharrre({
+      share: {
+        facebook: true
+      },
+      buttons: {
+        facebook: {}
+      }, 
+
+      enableHover: false,
+      enableTracking: false,
+      click: function(api, options){
+        api.simulateClick();
+        api.openPopup('facebook');
+      },
+      template: '<i class="fa fa-facebook-square"></i> &middot; 426',
+      url: 'http://demos.creative-tim.com/light-bootstrap-dashboard'
+    });
+
+
 });
+
 demo = {
    initPickColor: function(){
         $('.pick-class-label').click(function(){

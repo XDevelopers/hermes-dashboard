@@ -23,6 +23,11 @@ $(document).ready(function(){
 		hd.initRightMenu();
 	}
 
+	 //      Activate the switches with icons 
+    if($('.switch').length != 0){
+        $('.switch')['bootstrapSwitch']();
+    } 
+
 	$(document).on('ps-scroll-x', function () {
   		hermesdashboard.checkScrollForParallax();
 	});
