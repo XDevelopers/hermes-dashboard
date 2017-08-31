@@ -898,16 +898,18 @@
 		font-weight: 600 !important;
 	}
 
-	.fa-twitter{
-		color: $info-color  !important;
-	}
+	.hermes-wrapper{
+		.fa-twitter{
+			color: $info-color  !important;
+		}
 
-	.fa-facebook-square{
-		color: #6455d6 !important;
-	}
+		.fa-facebook-square{
+			color: #6455d6 !important;
+		}
 
-	.fa-dribbble{
-		color: pink !important;
+		.fa-dribbble{
+			color: pink !important;
+		}
 	}
 
 	.githubPage{
