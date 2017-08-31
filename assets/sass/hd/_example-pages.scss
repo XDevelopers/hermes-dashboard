@@ -504,7 +504,7 @@
 }
 .iconsPage{
 	position: relative;
-	margin-top: 200px;
+	margin-top: 100px;
 	.card-simple{
 		max-width: 500px;
 		margin: auto;
@@ -864,6 +864,7 @@
 		}
 		.image-container{
 			height: 400px;
+			margin-top: 70px;
 		}
 		.orange-ps{
 			top: 10%;
@@ -990,6 +991,18 @@
 			}
 		}
 	}
+
+	.github-logo{
+		margin-top: 100px;
+		margin-left: -60px;
+		position: absolute;
+	}
+
+	.githubPage{
+		.card-simple{
+			margin-top: 125px;
+		}
+	}
 }
 
 @media (max-width: 576px)
@@ -1009,8 +1022,16 @@
 		margin-top: 50px;
 		}
 
+		.orange-ps{
+			left: 90px;
+		}
+
+		.green-ps{
+			left: 55px;
+		}
+
 		.red-ps{
-			left: 215px;
+			left: 145px;
 		}
 
 		img{
