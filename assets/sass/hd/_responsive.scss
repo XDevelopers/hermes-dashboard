@@ -191,6 +191,7 @@
             content: none;
         }
     }
+    
     .navbar-fixed-top {
         -webkit-backface-visibility: hidden;
     }
@@ -368,9 +369,15 @@
     }
 }
 
+@media (max-width: 576px){
+    .ct-label{
+        font-size: 0.5em;
+    }
+}
+
 @media (max-width: 480px){
     body{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 

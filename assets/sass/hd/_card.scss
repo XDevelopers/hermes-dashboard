@@ -94,6 +94,7 @@
 		text-align: center;
 		background-position: center center;
 		background-size: cover;
+		margin-top: 10px;
 		@include card-transition;
 		&:hover{
 			@include card-hover;
