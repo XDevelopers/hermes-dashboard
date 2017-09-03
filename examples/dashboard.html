@@ -50,11 +50,10 @@
 	<!--	Hermes Dashboard CSS    -->
 	<link rel="stylesheet" type="text/css" href="../assets/css/hd.css">
 
-	<!--	Nucleo Icons CSS    -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-
-	<!--	Font Awesome Icons 	-->
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<!--	Fonts and Icons 	-->
+	<link rel="stylesheet" type="text/css" href="../assets/css/hermes-icons.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Montserrat:400,500,600' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -319,14 +318,12 @@
 				</ul>
 			</nav>
 			<p>
-				&copy; <script>document.write(new Date().getFullYear())</script> <a href="#" class="text-info">Hermes </a>
-				, made with love for a better web
+				&copy; <script>document.write(new Date().getFullYear())</script> <a href="#" class="text-info">Hermes </a>,made with love for a better web
 			<p>
 		  </div>
 	   </footer><!--footer-->
 	</div><!--main-panel-->
 </div><!--wrapper-->
-
 
 <div class="fixed-plugin">
     <div class="dropdown show-dropdown">
@@ -401,31 +398,35 @@
 
 </body>
 
-<!--	Core JS File    -->
-<script src="../assets/js/core/jquery-2.1.4.min.js"></script>
-<script src="../assets/js/core/jquery-ui.min.js"></script>
-<script src="../assets/js/plugins/popper.min.js"></script>
-<script src="../assets/js/core/bootstrap.min.js"></script>
+	<!-- Core JS Files -->
+	<script src="../assets/js/core/jquery-2.1.4.min.js"></script>
+	<script src="../assets/js/core/jquery-ui.min.js"></script>
+	<script src="../assets/js/core/popper.min.js"></script>
+	<script src="../assets/js/core/bootstrap.min.js"></script>
 
-<!--  Checkbox, Radio & Switch Plugins  -->
-<script src="../assets/js/bootstrap-checkbox-radio-switch.js"></script>
+	<!--  Checkbox, Radio & Switch Plugins  -->
+	<script src="../assets/js/bootstrap-checkbox-radio-switch.js"></script>
 
-<!-- Sharrre plugin -->
-<script src="../assets/js/jquery.sharrre.min.js"></script>
+	<!-- Sharrre plugin -->
+	<script src="../assets/js/jquery.sharrre.min.js"></script>
 
-<!--  Google Maps Plugin  -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7KL0C-Rqb9BHFkUUTAM6t0ExMYK5vUiE"></script>
+	<!--  Google Maps Plugin  -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7KL0C-Rqb9BHFkUUTAM6t0ExMYK5vUiE"></script>
 
-<!-- Hermes Dashboard javascript methods -->
-<script src="../assets/js/hd.js"></script>
+	<!-- Plugin for Charts, full documentation here: https://gionkunz.github.io/chartist-js/ -->
+	<script src="../assets/js/plugins/chartist.min.js"></script>
 
-<!-- Hermes Dashboard DEMO methods, don't include it in your project! -->
-<script src="../assets/js/demo.js"></script>
+	<!-- Plugin for Notifications, full documentation here: http://bootstrap-notify.remabledesigns.com/ -->
+	<script src="../assets/js/plugins/bootstrap-notify.js"></script>
+
+	<!-- Hermes Dashboard javascript methods -->
+	<script src="../assets/js/hd.js"></script>
+
+	<!-- Hermes Dashboard DEMO methods, don't include it in your project! -->
+	<script src="../assets/js/demo.js"></script>
 
 
 	<script>
-
-
 		$(document).ready(function(){
 
 			demo.initChartist();
