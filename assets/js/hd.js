@@ -19,6 +19,12 @@ $(document).ready(function(){
 
 	hd.checkHeaderImage();
 	
+	if(window_width >= 992){
+		$(document).on('ps-scroll-x', function () {
+	  		hermesdashboard.checkScrollForParallax();
+		});
+	}
+
 	if(window_width <= 991){
 		hd.initRightMenu();
 	}
@@ -28,9 +34,7 @@ $(document).ready(function(){
         $('.switch')['bootstrapSwitch']();
     } 
 
-	$(document).on('ps-scroll-x', function () {
-  		hermesdashboard.checkScrollForParallax();
-	});
+	
 	var scroll_start = 0;
 	var startchange=$('.wave');
 	var offset = startchange.offset();
