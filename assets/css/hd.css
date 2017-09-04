@@ -3078,7 +3078,7 @@ a {
   color: #1dc7ea;
 }
 a:hover, a:focus {
-  color: white;
+  color: #9A9A9A;
   text-decoration: none;
 }
 
