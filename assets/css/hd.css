@@ -2240,6 +2240,11 @@ h1 .subtitle {
   .ct-label {
     font-size: 0.5em;
   }
+
+  .fixed-plugin .show .dropdown-menu {
+    width: 230px;
+    left: -70px !important;
+  }
 }
 @media (max-width: 480px) {
   body {
