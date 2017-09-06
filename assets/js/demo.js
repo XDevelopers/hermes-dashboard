@@ -70,7 +70,7 @@ $().ready(function(){
         api.simulateClick();
         api.openPopup('twitter');
       },
-      template: '<i class="fa fa-twitter"></i> &middot; 256',
+      template: '<i class="fa fa-twitter"></i>',
       url: 'http://demos.creative-tim.com/light-bootstrap-dashboard'
     });
 
@@ -88,7 +88,7 @@ $().ready(function(){
         api.simulateClick();
         api.openPopup('facebook');
       },
-      template: '<i class="fa fa-facebook-square"></i> &middot; 426',
+      template: '<i class="fa fa-facebook-square"></i>',
       url: 'http://demos.creative-tim.com/light-bootstrap-dashboard'
     });
 
